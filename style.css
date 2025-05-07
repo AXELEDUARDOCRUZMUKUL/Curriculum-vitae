@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #543f3f;
+    color: #333;
+    font-family: 'Arial', sans-serif; 
+    font-size: 100%;
+}
+#container {
+    margin: 5% auto;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+}
+
+h1, h2, h3 {
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 0.05em;
+    color: #000; 
+    font-size: 2.2em;
+}
+h3 {
+    font-size: 1.25em;
+}
+h4 {
+    font-size: 1.06em;
+}
+a {
+    text-decoration: none;
+    color: #000; 
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.link {
+    color: #ffffff;
+}
+header {
+    background-color: #333;
+    padding: 5% 2.5%;
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.one img {
+    max-width: 90%;
+    border: 5px solid #fff; 
+}
+.one h1 {
+    text-align: center;
+    margin-top: 1.875em;
+    color: #fff; 
+}
+
+.two h1 {
+    color: #fff; 
+}
+.one h3 {
+    margin-bottom: 3.125em;
+    color: #fff; 
+}
+.two {
+    align-self: flex-end;
+    color: #fff; 
+}
+nav li {
+    padding: 0.625em;
+    min-width: 6.250em;
+    border: #ddd 1px solid; 
+    text-align: center;
+    margin-bottom: 1.250em;
+    opacity: 0.8;
+    background-color: #f9f9f9; 
+}
+nav li:hover {
+    opacity: 1;
+    transition: 0.5s;
+    background-color: #e1e1e1; 
+}
+main {
+    flex-basis: 75%;
+    padding: 5% 2.5%;
+    background-color: #fff; 
+}
+section {
+    margin: 3%;
+}
+main h2 {
+    border-bottom: #000 2px solid;
+    margin-bottom: 0.625em;
+    padding-bottom: 0.313em;
+}
+#skills p{
+    margin-left: 1.5em;
+    color: #333; 
+}
+
+
+.skills li::before, h4::before {
+    content: "\f105";
+    font-family: "Font Awesome\ 5 Free";
+    font-weight: 900;
+    display: inline-block;
+    width: 1.3em;
+    color: #333;
+}
+
+
+
+li {
+    list-style: none;
+    
+}
+#experience p, #education p {
+    margin-left: 1.5em;
+    color: #333; 
+}
+#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#portfolio h2 {
+    width: 100%;
+    color: #000;
+}
+.proyecto {
+    flex-basis: 30%;
+    margin-bottom: 1.5em;
+}
+.proyecto img {
+    width: 100%;
+    border: 2px solid #ddd;
+    transition: transform 0.3s ease-in-out;
+}
+.proyecto img:hover {
+    transform: scale(1.05);
+}
